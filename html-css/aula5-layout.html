@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Layouts</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, inicial-scale=1">
+		<style>
+			* {
+			  box-sizing: border-box;
+			}
+
+			body {
+			  font-family: Arial, Helvetica, sans-serif;
+			}
+
+			/* Style the header */
+			header {
+			  background-color: #666;
+			  padding: 30px;
+			  text-align: center;
+			  font-size: 35px;
+			  color: white;
+			}
+
+			/* Create two columns/boxes that floats next to each other */
+			nav {
+			  float: left;
+			  width: 30%;
+			   
+			  background: #ccc;
+			  padding: 20px;
+			}
+
+			/* Style the list inside the menu */
+			nav ul {
+			  list-style-type: none;
+			  padding: 0;
+			}
+
+			article {
+			  float: left;
+			  padding: 20px;
+			  width: 70%;
+			  background-color: #f1f1f1;
+			}
+
+			/* Clear floats after the columns */
+			section::after {
+			  background: #ccc;
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+
+			/* Style the footer */
+			footer {
+			  background-color: #777;
+			  padding: 10px;
+			  text-align: center;
+			  color: white;
+			}
+
+			/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+			@media (max-width: 600px) {
+			  nav, article {
+			    width: 100%;
+			    height: auto;
+			  }
+			}
+			</style>
+
+
+		 
+	</head>
+	<body>
+
+		<header>
+			<h2>Título da página</h2>
+		</header>
+
+		<section>
+			<nav>
+				<ul>
+					<li><a href="aula5-layouts.html">Home</a></li>
+					<li><a href="#sobre">Sobre</a></li>
+					<li><a href="./aula6-formularios.html">Contato</a></li>
+				</ul>
+			</nav>
+
+			<article>
+				<h1>Título Artigo</h1>
+
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at turpis sed enim efficitur viverra. Aliquam id imperdiet urna. Nam pretium at lectus facilisis molestie. Pellentesque ac erat nec felis finibus egestas non et dui. Donec lacinia sed tortor dictum mattis. Duis hendrerit ipsum sit amet accumsan fermentum. Donec sed augue nec mauris sodales ornare eget sed quam. Mauris eget ultrices ipsum. Duis at augue non lacus convallis cursus vel in lorem. Mauris at felis nec odio ornare lobortis nec in augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+<p>Aliquam accumsan egestas faucibus. Ut molestie varius velit eget malesuada. Aenean magna augue, commodo ac sem et, pulvinar pulvinar erat. Aliquam bibendum augue et risus ultricies elementum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas ante lectus, varius vehicula rutrum sit amet, vulputate eget lacus. Maecenas eu augue purus. Phasellus at pharetra dolor. Nam viverra ex augue, sagittis dignissim tellus suscipit non. Suspendisse hendrerit nec sem et pellentesque. Phasellus lobortis orci id egestas ornare.</p>
+
+<p>Mauris ac luctus est. Aenean vehicula arcu sed velit finibus, elementum malesuada dolor facilisis. Integer porta tortor mollis blandit volutpat. Fusce leo lacus, egestas nec ipsum sit amet, venenatis luctus ante. Nullam nec sem vitae nulla tristique luctus sit amet sed diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed risus velit. Vestibulum et interdum nisl. Maecenas placerat tincidunt mattis. Ut commodo tempus neque in pellentesque. Cras rutrum condimentum dignissim. Aenean ultricies ex nec lorem ultricies, nec pellentesque nulla pellentesque. Sed eu aliquet velit. Morbi blandit maximus nisi, in porta quam dapibus quis.</p>
+			</article>
+
+		</section>
+
+		<footer>
+			<p>Desenvolvido por Bárbara</p>
+		</footer>
+	</body>
+</html>	
+		
+
+
+
+
+
+
+
+
+
+
+
+

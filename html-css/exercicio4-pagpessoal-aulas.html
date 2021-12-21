@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - Bárbara Home</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+			* {
+			  box-sizing: border-box;
+			}
+
+			body {
+			  font-family: Arial, Helvetica, sans-serif;
+			}
+
+			/* Style the header */
+			header {
+			  background-color: #7B68EE;
+			  padding: 30px;
+			  text-align: center;
+			  font-size: 35px;
+			  color: white;
+			}
+
+			/* Create two columns/boxes that floats next to each other */
+			nav {
+			  float: left;
+			  width: 30%;
+			   
+			  background: #FFFAFA;
+			  padding: 20px;
+			}
+
+			/* Style the list inside the menu */
+			nav ul {
+			  list-style-type: none;
+			  padding: 0;
+			}
+
+			article {
+			  float: left;
+			  padding: 20px;
+			  width: 70%;
+			  background-color: #FFFAFA;
+			}
+
+			/* Clear floats after the columns */
+			section::after {
+			  background: #CCC;
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+
+			/* Style the footer */
+			footer {
+			  background-color: #7B68EE;
+			  padding: 10px;
+			  text-align: center;
+			  color: white;
+			}
+
+			/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+			@media (max-width: 600px) {
+			  nav, article {
+			    width: 100%;
+			    height: auto;
+			  }
+			}
+			</style>
+	</head>
+	<body>
+
+		<header>
+			<h2>Curso Front-end - HTML</h2>
+		</header>
+
+		<section>
+
+			<nav>
+				<h3>Aulas</h3>
+				<ul>
+					<li><a href="aula1-introducao.html">Introdução</a></li>
+					<li><a href="aula2-listas-e-links.html">Listas e Links</a></li>
+					<li><a href="aula3-formatacao-de-texto.html">Formatação de Texto</a></li>
+					<li><a href="aula4-tabelas.html">Tabelas</a></li>
+					<li><a href="aula5-layout.html">Layouts</a></li>
+					<li><a href="aula6-formularios.html">Formulários</a></li>
+				</ul>
+
+				<h3>Links para Aprendizado</h3>
+				<ul>
+					<li><strong>Roteiro de Estudo Front-end</strong>
+						<li><a href="https://roadmap.sh/frontend" target="_blank"><small>Roadmap Front-end</small></a></li>
+					</li>
+					<li><strong>Sites de Conteúdo</strong>
+						<li><a href="https://www.w3schools.com/" target="_blank"><small>W3Schools</small></a></li>
+						<li><a href="https://devfreebooks.github.io/" target="_blank"><small>Dev Free Books</small></a></li>
+					</li>
+					<li><strong>Artigos</strong>
+						<li><a href="https://medium.com/tableless" target="_blank"><small>Medium</small></a></li>
+						<li><a href="https://dev.to/" target="_blank"><small>DEV Community</small></a></li>
+					</li>	
+				</ul>
+
+			
+			</nav>
+
+			<article>
+
+				<img width="200" src=https://images.unsplash.com/photo-1621839673705-6617adf9e890?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZnJvbnQlMjBlbmR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60 height="200" alt="representação gráfica de uma tag html">
+				
+				<h2>Bárbara</h2>
+
+
+				<p>Bacharel em Administração e Estudante de Desenvolvimento Web - Front-end da <a href="https://ebaconline.com.br" target="_blank"><strong>EBAC</strong></a> </p>
+				
+
+			</article>
+
+
+		</section>
+
+		<footer>
+			<p>Desenvolvido por Bárbara</p>
+		</footer>
+		
+	</body>
+</html>

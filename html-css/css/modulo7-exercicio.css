@@ -1,0 +1,77 @@
+/* Importando CSS de Tabelas */
+@import 'exercicio7-tabela.css';
+
+html {
+	font-family: sans-serif;
+	color: #333333;
+}
+
+header {
+	background-color: #4F4F4F;
+	padding: 30px;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+}
+
+p {
+	color: #454545;
+}
+
+header p {
+	color: #fff;
+	font-size: 2rem;
+}
+
+header h2 {
+	font-weight: 100;
+}
+
+header > h2 {
+	font-weight: 600;
+}
+
+h2:hover {
+	color: #888;
+}
+
+h1, h2 {
+	font-weight: 400;
+	font-family: 'Bebas Neue', cursive;
+}
+
+header {
+	line-height: 1rem;
+}	
+
+p {
+	font-weight: normal;
+	font-size: 1rem;
+}
+
+h3 {
+	font:  1.2rem/2 sans-serif;
+}
+
+section {
+	background: rgba(255, 255, 255, 0.75);
+}
+
+p {
+	color: blue;
+	color: #034589;
+}
+
+footer {
+	background-color: #4F4F4F;
+	font-size: 2rem;
+	padding: 30px;
+	text-align: center;
+	color: white;
+}
+
+footer p {
+	color: #FFFFFF;
+}
+
+
