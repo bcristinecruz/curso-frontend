@@ -1,7 +1,9 @@
 # curso-frontend
 
 #GIT
+
 ## Conceitos de versionamento
+
 - Histórico
 - Controle de versão
 - Quem alterou
@@ -19,10 +21,16 @@ Arquivo B| Versão 1 | Versão 2
 
 ## Clonar o projeto
 
+git clone https://github.com/bcristinecruz/curso-frontend.git
 
-## Conmits
+## Commits
+
 Informação de alteração
+
 - após testado o código
+- git add \*
+- git commit -m "mensagem"
 
 ## GitFlow
+
 Fluxo do Git
